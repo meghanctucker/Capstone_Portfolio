@@ -77,6 +77,11 @@ jumbotron
   border-radius: 50%;
 }
 
+.social_svg svg {
+  width: 16px;
+  height: 16px;
+}
+
 /**************
 Portfolio
 *************/
@@ -190,7 +195,7 @@ Lightbox
 }
 
 #modal {
-  width: 40%;
+  width: 80%;
   margin: 15% auto auto;
   position: relative;
   text-align: center;
@@ -215,4 +220,29 @@ Footer
 footer {
   background-color: #445;
   color: white;
+}
+
+
+/************
+media Queries
+*************/
+
+@media (min-width: 768px) {
+  .social_svg svg {
+    width: 32px;
+    height: 32px;
+  }
+  #modal {
+    width: 60%;
+  }
+}
+
+@media (min-width: 992px) {
+  .social_svg svg {
+    width: 48px;
+    height: 48px;
+  }
+  #modal {
+    width: 40%;
+  }
 }

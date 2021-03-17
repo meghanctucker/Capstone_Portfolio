@@ -4,7 +4,7 @@ const javascriptButton = document.getElementById('javascript');
 const apiButton = document.getElementById('api');
 const allButton = document.getElementById('all');
 const portPics = document.getElementsByClassName('mypic');
-
+const portOverlay = document.getElementsByClassName('overlay');
   //buttons
   //Images
   //caption/attribute
@@ -12,34 +12,45 @@ const portPics = document.getElementsByClassName('mypic');
 cssButton.addEventListener('click', () => {
   for(let i = 0; i < portPics.length; i ++) {
     let portItem = portPics[i];
+    let overlaySelect = portOverlay[i];
     portItem.classList.remove('hidden');
+    overlaySelect.classList.remove('hidden');
     if (portItem.dataset.filterType !== "css"){
       portItem.classList.add('hidden');
+      overlaySelect.classList.add('hidden');
     }
   }
 });
 javascriptButton.addEventListener('click', () => {
   for(let i = 0; i < portPics.length; i ++) {
     let portItem = portPics[i];
+    let overlaySelect = portOverlay[i];
     portItem.classList.remove('hidden');
+    overlaySelect.classList.remove('hidden');
     if (portItem.dataset.filterType !== "javascript"){
       portItem.classList.add('hidden');
+      overlaySelect.classList.add('hidden');
     }
   }
 });
 apiButton.addEventListener('click', () => {
   for(let i = 0; i < portPics.length; i ++) {
     let portItem = portPics[i];
+    let overlaySelect = portOverlay[i];
     portItem.classList.remove('hidden');
+    overlaySelect.classList.remove('hidden');
     if (portItem.dataset.filterType !== "api"){
       portItem.classList.add('hidden');
+      overlaySelect.classList.add('hidden');
     }
   }
 });
 allButton.addEventListener('click', () => {
   for(let i = 0; i < portPics.length; i ++) {
     let portItem = portPics[i];
+    let overlaySelect = portOverlay[i];
       portItem.classList.remove('hidden');
+      overlaySelect.classList.remove('hidden');
   }
 });
 //portfolio filter
