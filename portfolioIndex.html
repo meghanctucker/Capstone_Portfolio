@@ -4,13 +4,7 @@
     <meta charset="utf-8">
     <title>Meghan Tucker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous">
-    </script>
--->
+
 <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
@@ -34,8 +28,6 @@
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                   <a class="nav-link" href="#portfolio">Portfolio</a>
-          <!--        <a class="nav-link" href="#services">Services</a> -->
-          <!--        <a class="nav-link" href="#qualifications">Qualifications</a> -->
                   <a class="nav-link" href="#contact">Contact</a>
                 </div>
               </div>
@@ -47,15 +39,13 @@
     <main>
       <!--Jumbotron -->
         <div class="container-fluid d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-end jumbotron">
-        <!--  <img class="img-fluid rounded-circle" src="img/Meghan/Profile_Picture.jpg" Alt="Meghan Tucker"/>
-        -->
-        <div class="intro text-center flex-column col-8 col-lg-6 d-flex align-items-center">
+          <div class="intro text-center flex-column col-8 col-lg-6 d-flex align-items-center">
             <h2 class="jumboText">Hey there! I'm Meghan, and I build websites.</h2>
             <p class="jumboText">I specialize in front-end design and development. Check out some of my work
               in the portfolio below or contact me for more information.
             </p>
             <button id="contactButton" class="btn btn-primary justify-content-center" style="background-color: #8BB0BE">Contact me!</button>
-        </div>
+          </div>
           <!-- social media -->
           <div class="social col-8 d-flex justify-content-center align-items-center col-lg-2 flex-lg-column">
             <a class="social_svg" id="twitter">
@@ -75,7 +65,6 @@
             </a>
           </div>
           <!--/social media -->
-
         </div>
       <!-- /Jumbotron -->
 
@@ -83,11 +72,11 @@
       <div class="pb-4" id="portfolio">
         <h1 class="text-center pt-3 mb-3">Portfolio</h1>
         <div id="filter" class="d-flex justify-content-center flex-row mb-3">
-        <button type="button" id="css" class="btn btn-outline-secondary px-2 mx-2">CSS</button>
-        <button type="button" id="javascript" class="btn btn-outline-secondary px-2 mx-2">Javascript</button>
-        <button type="button" id="api" class="btn btn-outline-secondary px-2 mx-2">APIs</button>
-        <button type="button" id="all" class="btn btn-outline-secondary px-2 mx-2">Show All</button>
-      </div>
+          <button type="button" id="css" class="btn btn-outline-secondary px-2 mx-2">CSS</button>
+          <button type="button" id="javascript" class="btn btn-outline-secondary px-2 mx-2">Javascript</button>
+          <button type="button" id="api" class="btn btn-outline-secondary px-2 mx-2">APIs</button>
+          <button type="button" id="all" class="btn btn-outline-secondary px-2 mx-2">Show All</button>
+        </div>
         <!-- Images -->
         <!--div class="pt-2 container-fluid row justify-content-center"-->
         <div class="container col-md-12 d-flex flex-row flex-wrap justify-content-center">
@@ -99,40 +88,39 @@
                 <p class="">Uses Fetch API to import employee information into a directory. Complete with modal for expanded information and name filter feature written in JavaScript.</p>
                 <button class="goPage">See it!</button>
               </div>
-          </div>
-        </a>
-            <a class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink hidden">
-              <img  class="img-fluid mypic" src="img/screens/customForm_screen.jpg" alt="A custom styled form" data-filter-type="css"/>
-              <div class="overlay">
-                <div class="mytext">
-                  <h5 class="">Custom Form</h5>
-                  <p class="">A simple example of a custom form using HTML and CSS.</p>
-                  <button class="goPage">See it!</button>
-                </div>
+            </div>
+          </a>
+          <a class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink hidden">
+            <img  class="img-fluid mypic" src="img/screens/customForm_screen.jpg" alt="A custom styled form" data-filter-type="css"/>
+            <div class="overlay">
+              <div class="mytext">
+                <h5 class="">Custom Form</h5>
+                <p class="">A simple example of a custom form using HTML and CSS.</p>
+                <button class="goPage">See it!</button>
               </div>
-            </a>
-            <a class="col-md-4 col-lg-3 my-3 p-md-4 moreinfo portLink">
-              <img class="img-fluid mypic" src="img/screens/Dashboard_screen.jpg" alt="A web application dashboard" data-filter-type="javascript"/>
-              <div class="overlay">
-                <div class="mytext">
+            </div>
+          </a>
+          <a class="col-md-4 col-lg-3 my-3 p-md-4 moreinfo portLink">
+            <img class="img-fluid mypic" src="img/screens/Dashboard_screen.jpg" alt="A web application dashboard" data-filter-type="javascript"/>
+            <div class="overlay">
+              <div class="mytext">
                 <h5 class="">Employee Dashboard</h5>
                 <p class="">A custom web app dashboard, using an API, HTML, CSS, JavaScript, and SVG animations.</p>
                 <button class="goPage">See it!</button>
               </div>
-              </div>
-            </a>
+            </div>
+          </a>
           <!--/div-->
-            <a class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink">
-              <img class="img-fluid mypic" src="img/screens/GameShow_screen.jpg" alt="A javascript game" data-filter-type="javascript"/>
+          <a class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink">
+            <img class="img-fluid mypic" src="img/screens/GameShow_screen.jpg" alt="A javascript game" data-filter-type="javascript"/>
               <div class="overlay">
                 <div class="mytext">
-                <h5 class="">Game Show</h5>
-                <p class="">A game programed in JavaScript.</p>
-                <button class="goPage">See it!</button>
+                  <h5 class="">Game Show</h5>
+                  <p class="">A game programed in JavaScript.</p>
+                  <button class="goPage">See it!</button>
                 </div>
               </div>
             </a>
-
             <a class="col-md-4 col-lg-3 my-3 p-md-4 d-flex moreinfo portLink">
               <img class="img-fluid mypic" src="img/screens/photoGallery_screen.jpg" alt="a photo gallery" data-filter-type="javascript"/>
               <div class="overlay">
@@ -168,103 +156,6 @@
       </div>
       <!-- /Portfolio -->
 
-      <!--Services -->
-<!-- PUT THIS IN LATER
-      <div id="services" class="pb-4">
-        <h1 class="text-center py-3">Services</h1>
-        <div class="row container-fluid">
-          <div class="col-4 mx-2 card bg-light text-black">
-            <img src="img/screens/photoGallery_screen.jpg" class="card-img img-fluid img-thumbnail" alt="...">
-            <div class="card-img-overlay">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text">Last updated 3 mins ago</p>
-            </div>
-          </div>
-
-        <div class="col-4 mx-2 card bg-light text-black">
-          <img src="img/screens/photoGallery_screen.jpg" class="card-img img-fluid img-thumbnail" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
-          </div>
-        </div>
-
-        <div class="col-4 mx-2 card bg-light text-black">
-          <img src="img/screens/photoGallery_screen.jpg" class="card-img img-fluid img-thumbnail" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  -->
-      <!-- /Services -->
-
-      <!--Qualifications -->
-<!--
-      <div id="qualifications">
-        <h1>Qualifications</h1>
-        <div id="languages" class="shadow">
-          <h3>Languages/Frameworks:</h3>
-          <p>HTML5</p>
-          <p>CSS</p>
-          <p>SASS</p>
-          <p>JavaScript</p>
-          <p>Jquery</p>
-        </div>
-        <div id="design">
-          <h3>Photo/design apps:</h3>
-          <p>Adobe Photoshop</p>
-          <p>Adobe Lightroom</p>
-          <p>Inkscape</p>
-          <p>Canva</p>
-          <p>Adobe XD</p>
-        </div>
-        <div id="office">
-          <h3>Office Suites</h3>
-          <p>Microsoft</p>
-          <p>Google</p>
-          <p>Mac</p>
-        </div>
-        <div id="ox">
-          <h3>Operating systems:</h3>
-          <p>Windows</p>
-          <p>Mac OSX</p>
-        </div>
-        <div id="comTech">
-          <h3>Communications technologies:</h3>
-          <p>Discord</p>
-          <p>Slack</p>
-          <p>Zoom</p>
-          <p>Skype</p>
-        </div>
-        <div id="Education">
-          <h3>Education:</h3>
-          <h4>Bachelor of Arts</h4>
-          <p>California State University: Fullerton</p>
-          <p>Anthropology, 2011</p>
-          <p>Relevant courses: ArcGIS for archaeology, Drafting for Stage Design, Sound Design</p>
-          <p>Relevant extra-curriculars: Representative for the Association of Inter-Cultural Awareness: submission of funding proposals for a cultural group on campus, event planning; Secretary, Titan Archaeological Group: planned events for academic lectures.</p>
-          <p></p>
-          <h4>Certification</h4>
-          <p>Team Treehouse</p>
-          <p>Front-End Web Development, 2021</p>
-
-
-        </div>
-      </div>
--->
-      <!-- /Qualifications -->
-<!-- Maybe Add:
-        Communication Director, WAC
-
-      Maybe Add:
-      Wordpress, Wix, Drupal, Weebly content management systems
--->
       <!--Contact -->
       <div id="contact" class="pb-4">
         <h1 class="text-center py-3">Contact</h1>
@@ -289,15 +180,9 @@
               <p class="px-2">LinkedIn</p>
             </div>
           </div>
-          <!--
-          <div class="text-center">
-            <img src="img/lightpostillistration.png" alt="art" height="500px" />
-          </div>
-        -->
           <div id="contactForm" class="ms-md-2">
             <!-- action="action_page.php" -->
             <form class="d-flex justify-content-center flex-column" onSubmit="return false" >
-
               <h2>Message Me!</h2>
 
               <label for="name">name</label>
