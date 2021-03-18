@@ -23,9 +23,7 @@ const portOverlay = document.getElementsByClassName('overlay');
 
   //Variables - contact button modal
   const contactModal = document.getElementById('contactButton');
-  const modalHTML = document.getElementById('contactForm');
   const overlay = document.getElementById('overlayInfo');
-  const modalContainer = document.getElementById('modalContent');
   const modalClose = document.getElementById('modalClose');
 
 //Portfolio Filter
@@ -119,7 +117,7 @@ allButton.addEventListener('click', () => {
         return false;
       } else {
       return true;
-      };
+      }
     }
 
         //click handler to advise user on if the form was successful or not
