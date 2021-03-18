@@ -238,6 +238,9 @@ media Queries
 }
 
 @media (min-width: 992px) {
+  .social_svg {
+    padding:8%;
+  }
   .social_svg svg {
     width: 48px;
     height: 48px;
